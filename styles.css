@@ -1,9 +1,9 @@
 html {
+    box-sizing: content-box;
     width: 100%;
     height: 100%;
 }
 body {
-
     margin: 0;
     background-color: #12111F;
     color: #F2F5F9;
@@ -15,6 +15,7 @@ body {
     overflow-x: hidden;
 }
 main {
+    box-sizing: content-box;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,6 +56,8 @@ main {
     margin-bottom: 40px;
 }
 .dropdown-section  {
+    display: flex;
+    flex-direction: column;
     margin-left: 32px;
     margin-right: 32px;
     align-self: center;
@@ -138,8 +141,6 @@ details p {
   @media (min-width: 1280px) {
     body {
         width: 100%;
-        margin-left: 72px;
-        margin-right: 72px;
     }
     .dropdown-section  {
         width: 746px;
